@@ -11,4 +11,4 @@ class QuoteViewModel(
     val quote by lazyDeffered {
         quoteRepository.getQuotes()
     }
-}
+  }
